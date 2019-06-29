@@ -4,7 +4,7 @@ stages:
   - publishImageConfig:
       dockerfilePath: ./Dockerfile
       buildContext: .
-      tag: andreeavalos/pipeline-database
+      tag: andreeavalos/pipeline-server
       pushRemote: true
       registry: index.docker.io
 - name: Crear en k8s
