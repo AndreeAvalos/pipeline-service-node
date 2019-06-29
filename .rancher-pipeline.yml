@@ -6,7 +6,6 @@ stages:
       buildContext: .
       tag: andreeavalos/pipeline-database
       pushRemote: true
-      registry: 01
 - name: Crear en k8s
   steps:
   - applyYamlConfig:
