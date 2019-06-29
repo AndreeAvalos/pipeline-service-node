@@ -21,9 +21,9 @@ spec:
         workload.user.cattle.io/workloadselector: deployment-entrega-final-test
     spec:
       containers:
-      - image: nginx
+      - image: czdev/miws
         imagePullPolicy: Always
-        name: nginx
+        name: test
       dnsPolicy: ClusterFirst
       imagePullSecrets:
       - name: dockerhub
