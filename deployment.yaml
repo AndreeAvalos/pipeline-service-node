@@ -21,7 +21,7 @@ spec:
         workload.user.cattle.io/workloadselector: deployment-entrega-final-test
     spec:
       containers:
-      - image: czdev/miws
+      - image: andreeavalos/pipeline-server
         imagePullPolicy: Always
         name: test
       dnsPolicy: ClusterFirst
